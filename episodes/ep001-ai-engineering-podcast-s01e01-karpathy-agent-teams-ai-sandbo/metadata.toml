@@ -1,11 +1,11 @@
 [episode]
 number = 1
-title = "AI engineering podcast, S01E01 — Karpathy, Agent teams, AI sandboxes"
-slug = "ai-engineering-podcast-s01e01-karpathy-agent-teams-ai-sandbo"
-description = "Bonjour,"
-tags = []
+title = "S01E01 — Karpathy, Agent teams, AI sandboxes"
+slug = "s01e01-karpathy-agents-sandboxes"
+description = "Premier épisode de l'AI engineering podcast — rendez-vous hebdomadaire animé par Julien et Christophe pour parler d'AI engineering et comment cela impacte les équipes dev et data."
+tags = ["karpathy", "claude-code", "agent-teams", "ai-sandboxes", "vibe-coding"]
 category = "Technology"
-language = "en"
+language = "fr"
 explicit = false
 youtube_url = "https://www.youtube.com/watch?v=U82J6Aenmg4"
 youtube_id = "U82J6Aenmg4"

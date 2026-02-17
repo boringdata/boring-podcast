@@ -128,8 +128,16 @@ def write_metadata(episode_dir: Path, info: dict, episode_num: int) -> None:
     """Write metadata.toml from YouTube video info."""
     title = info.get("title", "Untitled")
     description = info.get("description", "")
-    # Truncate description for RSS (keep first paragraph)
-    short_desc = description.split("\n\n")[0][:500] if description else ""
+    # Truncate description for RSS — take the first non-trivial paragraph
+    short_desc = ""
+    if description:
+        for para in description.split("\n\n"):
+            stripped = para.strip()
+            if len(stripped) > 20:
+                short_desc = stripped[:500]
+                break
+        if not short_desc:
+            short_desc = description.strip()[:500]
     channel = info.get("channel", "")
     tags = info.get("tags", []) or []
     # Keep only first 5 tags
