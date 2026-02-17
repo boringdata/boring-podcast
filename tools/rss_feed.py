@@ -1,6 +1,4 @@
 """Generate and update podcast RSS feed for Spotify + Apple Podcasts distribution."""
-
-import json
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -48,8 +46,9 @@ def update_rss_feed(audio_path: Path, episode_metadata: dict) -> str:
     fg = FeedGenerator()
     fg.load_extension("podcast")
 
+    website = pc.get("website") or pc.get("media_base_url", "")
     fg.title(pc["title"])
-    fg.link(href=pc["website"])
+    fg.link(href=website)
     fg.description(pc["description"])
     fg.language(pc.get("language", "en"))
     fg.podcast.itunes_author(pc["author"])
@@ -68,6 +67,7 @@ def update_rss_feed(audio_path: Path, episode_metadata: dict) -> str:
         key=lambda d: d.name
     )
 
+    published_count = 0
     for ep_dir in episode_dirs:
         meta_path = ep_dir / "metadata.toml"
         if not meta_path.exists():
@@ -92,6 +92,8 @@ def update_rss_feed(audio_path: Path, episode_metadata: dict) -> str:
         fe.title(ep["title"])
         fe.description(ep.get("description", ""))
         fe.enclosure(audio_url, file_size, "audio/mpeg")
+        if ep.get("number") is not None:
+            fe.podcast.itunes_episode(str(ep["number"]))
 
         # Get duration
         try:
@@ -119,14 +121,15 @@ def update_rss_feed(audio_path: Path, episode_metadata: dict) -> str:
             fe.podcast.itunes_season(str(podcast_meta["season"]))
         if podcast_meta.get("episode_type"):
             fe.podcast.itunes_episode_type(podcast_meta["episode_type"])
+        published_count += 1
 
     # Write feed
     FEED_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     fg.rss_file(str(FEED_OUTPUT_PATH), pretty=True)
 
-    feed_url = f"{pc.get('website', '')}/feed/podcast.xml"
+    feed_url = f"{website}/feed/podcast.xml"
     print(f"  RSS feed updated: {FEED_OUTPUT_PATH}")
     print(f"  Feed URL: {feed_url}")
-    print(f"  Episodes in feed: {len(episode_dirs)}")
+    print(f"  Episodes in feed: {published_count}")
 
     return feed_url

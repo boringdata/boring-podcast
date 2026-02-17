@@ -1,0 +1,32 @@
+[episode]
+number = 1
+title = "S01E01 — Karpathy, Agent teams, AI sandboxes"
+slug = "s01e01-karpathy-agents-sandboxes"
+description = "Premier épisode de l'AI engineering podcast — rendez-vous hebdomadaire animé par Julien et Christophe pour parler d'AI engineering et comment cela impacte les équipes dev et data."
+tags = ["karpathy", "claude-code", "agent-teams", "ai-sandboxes", "vibe-coding"]
+category = "Technology"
+language = "fr"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=U82J6Aenmg4"
+youtube_id = "U82J6Aenmg4"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+date = "2026-02-17T12:00:00+00:00"
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"

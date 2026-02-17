@@ -7,10 +7,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 17 Feb 2026 14:55:00 +0000</lastBuildDate>
-    <atom:link href="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/feed/podcast.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Tue, 17 Feb 2026 15:49:49 +0000</lastBuildDate>
     <itunes:author>Christophe Blefari &amp; Julien Hurault</itunes:author>
     <itunes:category text="Technology"/>
+    <itunes:image href="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/media/cover.png"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
       <itunes:name>Christophe Blefari &amp; Julien Hurault</itunes:name>
@@ -19,22 +19,9 @@
     <item>
       <title>S01E01 — Karpathy, Agent teams, AI sandboxes</title>
       <description>Premier épisode de l'AI engineering podcast — rendez-vous hebdomadaire animé par Julien et Christophe pour parler d'AI engineering et comment cela impacte les équipes dev et data.</description>
-      <content:encoded><![CDATA[<h2>S01E01 — Karpathy, Agent teams, AI sandboxes</h2>
-<p>Premier épisode de l'AI engineering podcast, rendez-vous hebdomadaire animé par Julien et Christophe pour parler d'AI engineering et comment cela impacte les équipes dev et data.</p>
-<p>Parfois nous serons rejoints par des invités, parfois ça sera en français, parfois en anglais !</p>
-<h3>Liens</h3>
-<ul>
-<li><a href="https://nitter.poast.org/karpathy/status/2015883857489522876#m">Karpathy sur Claude Code</a></li>
-<li><a href="https://x.com/francedot/status/2017858253439345092">Vibe Coding Paralysis</a></li>
-<li><a href="https://code.claude.com/docs/en/agent-teams">Claude agent teams</a></li>
-<li><a href="https://news.ycombinator.com/item?id=46902638">GPT5.3 et Opus 4.6</a></li>
-<li><a href="https://www.perplexity.ai/hub/blog/introducing-model-council">Model council — Perplexity</a></li>
-<li><a href="https://www.agentfs.ai/">AgentFS</a></li>
-<li><a href="https://github.com/pydantic/monty/">pydantic/monty</a></li>
-</ul>]]></content:encoded>
       <guid isPermaLink="false">ep001-s01e01-karpathy-agents-sandboxes</guid>
       <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep001-s01e01-karpathy-agents-sandboxes/audio.mp3" length="59364351" type="audio/mpeg"/>
-      <pubDate>Mon, 17 Feb 2026 12:00:00 +0000</pubDate>
+      <pubDate>Tue, 17 Feb 2026 12:00:00 +0000</pubDate>
       <itunes:duration>00:41:13</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>1</itunes:episode>

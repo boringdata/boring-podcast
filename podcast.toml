@@ -5,12 +5,12 @@ title = "AI Engineering Podcast"
 description = "Everyone's trying to figure out how to get the most out of all these AI tools. With this podcast, we share what we discover — and invite guests to explain how they use them in their day-to-day work."
 author = "Christophe Blefari & Julien Hurault"
 email = "julien.hurault+ai-eng-pod@sumeo.io"
-website = ""
-language = "en"
+website = "https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev"
+language = "fr"
 category = "Technology"
 
 # URL where your cover image is hosted (min 1400x1400px, max 3000x3000px)
-cover_url = ""
+cover_url = "https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/media/cover.png"
 
 # Base URL where episode audio files will be accessible
 # This is where you host the MP3 files (S3, R2, your own server, etc.)
