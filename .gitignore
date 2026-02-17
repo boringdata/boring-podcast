@@ -10,7 +10,6 @@ episodes/**/*.mkv
 episodes/**/*.avi
 episodes/**/*.mov
 episodes/**/*.webm
-episodes/**/*.mp3
 episodes/**/*.wav
 episodes/**/*.m4a
 episodes/**/*.ogg
