@@ -1,0 +1,38 @@
+# Episode Metadata Template
+# Copy this directory as episodes/epXXX-slug/ and fill in the fields
+
+[episode]
+number = 0
+title = ""
+slug = ""                  # URL-friendly title (auto-generated if empty)
+description = ""           # Short description (used in RSS, YouTube, etc.)
+tags = []                  # e.g. ["ai", "tech", "interview"]
+category = "Technology"    # iTunes category
+language = "en"
+explicit = false
+
+[episode.guests]
+# name = "Role / Company"
+
+[files]
+video = "video.mp4"        # Source video file (place in this directory)
+# audio and transcript are auto-generated
+# audio = "audio.mp3"
+# transcript = "transcript.md"
+# show_notes = "show-notes.md"
+
+[publish]
+# Set to true to publish to each platform
+youtube = true
+spotify = true             # via RSS feed
+apple = true               # via RSS feed
+
+[youtube]
+privacy = "public"         # public | unlisted | private
+category_id = "22"         # 22 = People & Blogs, 28 = Science & Tech
+playlist = ""              # YouTube playlist name to add to
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"      # full | trailer | bonus

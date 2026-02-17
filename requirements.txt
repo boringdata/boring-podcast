@@ -1,0 +1,7 @@
+# Podcast publishing tools
+openai                          # Whisper transcription
+anthropic                       # Claude show notes generation
+google-api-python-client        # YouTube Data API v3
+google-auth-oauthlib            # YouTube OAuth
+google-auth-httplib2            # YouTube auth transport
+feedgen                         # RSS feed generation

@@ -1,0 +1,28 @@
+# Kurt
+sources/
+.dolt/noms/
+.env
+.venv/
+
+# Media files (too large for git)
+episodes/**/*.mp4
+episodes/**/*.mkv
+episodes/**/*.avi
+episodes/**/*.mov
+episodes/**/*.webm
+episodes/**/*.mp3
+episodes/**/*.wav
+episodes/**/*.m4a
+episodes/**/*.ogg
+episodes/**/*.flac
+
+# Keep metadata, transcripts, show notes (tracked by git)
+!episodes/**/*.toml
+!episodes/**/*.md
+!episodes/**/*.log
+!episodes/**/*.json
+
+# Secrets
+.youtube_token.json
+client_secrets.json
+__pycache__/
