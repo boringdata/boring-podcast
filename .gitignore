@@ -5,7 +5,6 @@ sources/
 .venv/
 
 # Media files (too large for git)
-episodes/**/*.mp4
 episodes/**/*.mkv
 episodes/**/*.avi
 episodes/**/*.mov
