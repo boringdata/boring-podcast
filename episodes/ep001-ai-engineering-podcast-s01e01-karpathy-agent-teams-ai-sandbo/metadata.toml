@@ -1,0 +1,31 @@
+[episode]
+number = 1
+title = "AI engineering podcast, S01E01 — Karpathy, Agent teams, AI sandboxes"
+slug = "ai-engineering-podcast-s01e01-karpathy-agent-teams-ai-sandbo"
+description = "Bonjour,"
+tags = []
+category = "Technology"
+language = "en"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=U82J6Aenmg4"
+youtube_id = "U82J6Aenmg4"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"
