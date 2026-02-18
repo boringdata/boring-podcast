@@ -1,0 +1,32 @@
+[episode]
+number = 2
+title = "S01E02 — AI agents coding, Claude Code devient bete?, Something big is happening"
+slug = "s01e02-ai-agents-coding-claude-code"
+description = "Deuxieme episode de l'AI engineering podcast: agents qui codent, Claude Code et ce qui change en ce moment."
+tags = ["agents", "claude-code", "ai-engineering"]
+category = "Technology"
+language = "fr"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=JCqlPnBa0uM"
+youtube_id = "JCqlPnBa0uM"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"
+
