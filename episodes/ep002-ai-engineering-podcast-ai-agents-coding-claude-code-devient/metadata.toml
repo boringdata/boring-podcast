@@ -1,0 +1,31 @@
+[episode]
+number = 2
+title = "S01E02 — AI agents coding, Claude Code dumbed down?, Something big is happening"
+slug = "s01e02-ai-agents-coding-claude-code-something-big"
+description = "Deuxième épisode de l'AI engineering podcast — on parle d'AI agents qui codent, du débat autour de Claude Code, la levée de fonds record d'Anthropic, et l'article \"Something big is happening\"."
+tags = ["ai-agents", "claude-code", "anthropic", "gemini", "vibe-coding"]
+category = "Technology"
+language = "fr"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=JCqlPnBa0uM"
+youtube_id = "JCqlPnBa0uM"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"

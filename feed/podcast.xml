@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 17 Feb 2026 15:49:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2026 00:00:00 +0000</lastBuildDate>
     <itunes:author>Christophe Blefari &amp; Julien Hurault</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/media/cover.png"/>
@@ -16,6 +16,17 @@
       <itunes:name>Christophe Blefari &amp; Julien Hurault</itunes:name>
       <itunes:email>julien.hurault+ai-eng-pod@sumeo.io</itunes:email>
     </itunes:owner>
+    <item>
+      <title>S01E02 — AI agents coding, Claude Code dumbed down?, Something big is happening</title>
+      <description>Deuxième épisode de l'AI engineering podcast — on parle d'AI agents qui codent, du débat autour de Claude Code, la levée de fonds record d'Anthropic, et l'article "Something big is happening".</description>
+      <guid isPermaLink="false">ep002-s01e02-ai-agents-coding-claude-code-something-big</guid>
+      <enclosure url="https://pub-4ff2e85593bd4bee9df83cd32bec10ca.r2.dev/episodes/ep002-s01e02-ai-agents-coding-claude-code-something-big/audio.mp3" length="64546000" type="audio/mpeg"/>
+      <pubDate>Wed, 19 Feb 2026 12:00:00 +0000</pubDate>
+      <itunes:duration>00:44:49</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>S01E01 — Karpathy, Agent teams, AI sandboxes</title>
       <description>Premier épisode de l'AI engineering podcast — rendez-vous hebdomadaire animé par Julien et Christophe pour parler d'AI engineering et comment cela impacte les équipes dev et data.</description>
