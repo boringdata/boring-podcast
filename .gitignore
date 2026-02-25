@@ -24,3 +24,4 @@ episodes/**/*.flac
 .youtube_token.json
 client_secrets.json
 __pycache__/
+checkpoints/

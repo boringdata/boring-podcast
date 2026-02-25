@@ -1,0 +1,31 @@
+[episode]
+number = 3
+title = "S01E03 — OpenClaw, futur des métiers de la data, constitution des AI"
+slug = "s01e03-openclaw-futur-metiers-data-constitution-ai"
+description = "Troisième épisode avec Alexis Blandin — on parle d'OpenClaw, du futur des métiers de la data, de la nouvelle constitution d'Anthropic, et des agents AI."
+tags = ["openclaw", "data-engineering", "anthropic", "ai-agents", "cloudflare"]
+category = "Technology"
+language = "fr"
+explicit = false
+youtube_url = "https://www.youtube.com/watch?v=NeS8m47u5po"
+youtube_id = "NeS8m47u5po"
+
+[episode.guests]
+
+[files]
+video = "video.mp4"
+
+[publish]
+youtube = false
+spotify = true
+apple = true
+
+[youtube]
+privacy = "public"
+category_id = "28"
+playlist = ""
+made_for_kids = false
+
+[podcast]
+season = 1
+episode_type = "full"
